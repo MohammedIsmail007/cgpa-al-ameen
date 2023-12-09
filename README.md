@@ -1,2 +1,2 @@
-# cgpa-al-ameen
-This is used to develop cgpa project
+# cgpa-al-Ameen
+This is used to develop CGPA project
