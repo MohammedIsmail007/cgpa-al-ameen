@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA FOR SEM 8</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="./csecgpa.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--HEADER PORTION                                    ------------------------------------------------------------->
+    <header class=" text-center">
+      <h1 style="font-size: xx-large;" >CALCULATE YOUR GPA & CGPA</h1>      
+</header>
+
+<!--NAVIGATION PORTION                                    ------------------------------------------------------------->    
+    <nav  class="container-fluid ">
+      <div class="row">
+        
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+              <a class="nav-link" href="cser2020home.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="csesem3.html">SEM 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="csesem4.html">SEM 4</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="csesem5.html">SEM 5</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="csesem6.html">SEM 6</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="csesem7.html">SEM 7</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active bg-blue" href="csesem8.html">SEM 8</a>
+            </li>
+          </ul>
+        
+      </div>  
+    </nav>
+
+
+    <div class="container-fluid">
+      <div class="row">  <!--ROW COL 1-------------------------------------------------------------------------------- PORTION-->
+        <div class="col-sm-8">
+      
+          <main>
+            <h1>CGPA FOR SEMESTER-VIII </h1>
+        
+            <table class="table-bordered border-2 bg-white text-center">
+                <thead>
+                    <tr>
+                        <th>COURSE</th>
+                        <th>CREDIT SCORE</th>
+                        <th>GRADE</th>
+                    </tr>
+                </thead>
+              <tbody>
+                <tr>
+                    <th>20CS8L1 Project Work </th>
+                    <th>10</th>
+                    <td><div class="input-group mb-3">
+                        <select class="form-select" id="inputGroupSelect01">
+                          <option selected>Choose...</option>
+                          <option value="O">O</option>
+                          <option value="Aplus">Aplus</option>
+                          <option value="A">A</option>
+                          <option value="Bplus">Bplus</option>
+                          <option value="B">B</option>
+                          <option value="C">C</option>
+                          <option value="other">OTHER</option>
+                        </select>
+        
+                      </div></td>
+                      
+                </tr>
+        
+                <tr>
+                    <th>20CS8L2 Industrial Training /
+                      Internship </th>
+                    <th>3</th>
+                    <td ><div class="input-group mb-3">
+                        <select class="form-select" id="inputGroupSelect02">
+                          <option selected>Choose...</option>
+                          <option value="O">O</option>
+                          <option value="Aplus">Aplus</option>
+                          <option value="A">A</option>
+                          <option value="Bplus">Bplus</option>
+                          <option value="B">B</option>
+                          <option value="C">C</option>
+                          <option value="other">OTHER</option>
+                        </select>
+                      </div></td>
+                </tr>
+        
+              </tbody> 
+                
+            </table>  
+
+            <div class="card">
+              <div class="card-group">
+              <div class="card-body">
+                <br>
+                <button class="btn btn-outline-primary w-75" onclick="get8()">
+                  FOR GPA  <input class="w-75" id="gpa8"></button>
+                <br>
+                <br>
+                <button class="btn btn-primary w-75" onclick="sem8cgpacalc()">
+                  YOUR CGPA<input class="w-75" id="totcgpa8"></button>
+                <br>
+                <br>
+                <button class="btn btn-outline-primary" type="button" value="print" 
+                onclick="window.print()">PRINT</button>
+                <br>
+                <div class="card-text"></div>
+                    <p> <b>NOTE</b> Once you calculated your mark refresh this page to make a new calculation</p>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+      
+        <div class="col-sm-4"><!--ROW COL 2---------------------------------------------------------------------------- PORTION-->
+      
+          
+        </div>
+      </div>
+      
+      </div>
+<!--FOOTER PORTION-------------------------------------
+    <footer class="fixed-bottom">
+
+        <nav  class="container-fluid bg-light">
+          <div class="row">
+            
+               <ul class="nav nav-pills nav-fill">
+                <li class="nav-item">
+                  <a class="nav-link" href="home.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active bg-blue" aria-current="page" href="sem1.html">SEM 1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sem2.html">SEM 2</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sem3.html">SEM 3</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sem4.html">SEM 4</a>
+                </li>
+              </ul>
+            
+          </div>  
+        </nav>
+
+        
+      </footer>-->
+
+</body>
+</html>
